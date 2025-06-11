@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Copy > AI Prompt > Report",
+  "version": "3.0",
+  "description": "Right-click to copy page content into customizable AI prompt templates using context menus and settings.",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "logo.png"
+    }
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "128": "logo.png"
+  }
+}

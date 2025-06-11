@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Template Settings</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      font-family: system-ui, sans-serif;
+      font-size: 16px;
+      color-scheme: light dark;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .template-block {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      font-size: 1rem;
+      padding: 0.5rem;
+      margin-bottom: 0.75rem;
+      border: 1px solid #bbb;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background: #fff;
+      color: #000;
+    }
+
+    .button-row {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    .delete-button {
+      background: #dc3545;
+    }
+
+    .delete-button:hover {
+      background: #a71d2a;
+    }
+
+    #status {
+      margin-top: 1rem;
+      color: green;
+    }
+
+    /* 🌙 Dark mode support */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #ddd;
+      }
+
+      .template-block {
+        background: #1e1e1e;
+        border-color: #333;
+        box-shadow: 0 1px 2px rgba(255, 255, 255, 0.05);
+      }
+
+      input[type="text"],
+      textarea {
+        background: #2c2c2c;
+        color: #fff;
+        border-color: #444;
+      }
+
+      button {
+        background: #2196f3;
+      }
+
+      button:hover {
+        background: #0b7dda;
+      }
+
+      .delete-button {
+        background: #e74c3c;
+      }
+
+      .delete-button:hover {
+        background: #c0392b;
+      }
+
+      #status {
+        color: #80ff80;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>📄 Custom Templates</h1>
+  <div id="templatesContainer"></div>
+
+  <div class="button-row">
+    <button id="addTemplateBtn">➕ Add Template</button>
+    <button id="saveTemplatesBtn">💾 Save All</button>
+    <button id="deleteAllBtn" class="delete-button">🗑️ Delete All</button>
+  </div>
+
+  <p id="status"></p>
+
+  <script src="options.js"></script>
+</body>
+</html>
