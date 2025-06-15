@@ -67,3 +67,14 @@ Templates use `${content}` as a placeholder, which gets replaced automatically w
     "strict_min_version": "60.0"
   }
 }
+```
+
+## 🔌 Browser Extensions
+
+You can use the Copy AI Prompt Report extension directly in your browser:
+
+- **Firefox**: [Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/copy-ai-prompt-report/)
+- **Chrome** : [View in Chrome Web Store (Coming Soon)](https://chromewebstore.google.com/detail/cghkccejlkfcinmbifkejmgmaolaoacb/preview?hl=nl&authuser=0)
+
+> 🔒 The Chrome version is currently under review and will be available shortly.
+
