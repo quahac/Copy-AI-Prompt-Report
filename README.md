@@ -76,5 +76,4 @@ You can use the Copy AI Prompt Report extension directly in your browser:
 - **Firefox**: [Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/copy-ai-prompt-report/)
 - **Chrome** & **Edge**  : [Install from Chrome Web Store](https://chromewebstore.google.com/detail/copy-%3E-ai-prompt-%3E-report/cghkccejlkfcinmbifkejmgmaolaoacb)
 
-> 🔒 The Chrome version is currently under review and will be available shortly.
 
