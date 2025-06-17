@@ -74,7 +74,7 @@ Templates use `${content}` as a placeholder, which gets replaced automatically w
 You can use the Copy AI Prompt Report extension directly in your browser:
 
 - **Firefox**: [Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/copy-ai-prompt-report/)
-- **Chrome** : [View in Chrome Web Store (Coming Soon)](https://chromewebstore.google.com/detail/cghkccejlkfcinmbifkejmgmaolaoacb/preview?hl=nl&authuser=0)
+- **Chrome** : [Install from Chrome Web Store](https://chromewebstore.google.com/detail/copy-%3E-ai-prompt-%3E-report/cghkccejlkfcinmbifkejmgmaolaoacb)
 
 > 🔒 The Chrome version is currently under review and will be available shortly.
 
